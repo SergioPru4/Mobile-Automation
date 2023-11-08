@@ -8,12 +8,12 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import session.Session;
 
-public class ContactTest {
+public class AlarmTest {
     MainScreen mainScreen = new MainScreen();
     AlarmScreen alarmScreen = new AlarmScreen();
     AlarmFormScreen alarmFormScreen = new AlarmFormScreen();
     @Test
-    public void verifyCreateContact() {
+    public void verifyCreateAlarm() {
         String hour = "9";
         String minute = "15";
         String amOrPm = "am".toUpperCase();
