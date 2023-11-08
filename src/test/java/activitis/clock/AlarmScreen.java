@@ -1,4 +1,4 @@
-package activitis.contacts;
+package activitis.clock;
 
 import control.Button;
 import control.Label;
@@ -13,7 +13,7 @@ public class AlarmScreen {
         Label nameAlarm = new Label(By.xpath("//android.widget.TextView[contains(@text, '" + hour + ":" + minute + "')]"));
         String alarm = nameAlarm.getText();
         String time;
-        String amOrPmAlarm ;
+        String amOrPmAlarm;
 
         if (h >= 10) {
             time=alarm.substring(0, 5);

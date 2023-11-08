@@ -1,8 +1,8 @@
 package testsuite;
 
-import activitis.contacts.AlarmFormScreen;
-import activitis.contacts.AlarmScreen;
-import activitis.contacts.MainScreen;
+import activitis.clock.AlarmFormScreen;
+import activitis.clock.AlarmScreen;
+import activitis.clock.MainScreen;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

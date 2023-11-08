@@ -1,4 +1,4 @@
-package activitis.contacts;
+package activitis.clock;
 
 import control.Button;
 import org.openqa.selenium.By;
